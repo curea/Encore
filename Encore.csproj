@@ -5,12 +5,12 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App.xaml" />
-     <EmbeddedResource Include="MainWindow.xaml" />
+    <EmbeddedResource Include="App.xaml"/>
+    <EmbeddedResource Include="MainWindow.xaml"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.4.1-build2859-alpha" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.4.1-build2859-alpha" />
-    <PackageReference Include="Avalonia.Gtk3" Version="0.4.1-build2859-alpha" />
+    <PackageReference Include="Avalonia" Version="0.4.1-build2920-alpha"/>
+    <PackageReference Include="Avalonia.Skia.Desktop" Version="0.4.1-build2920-alpha"/>
+    <PackageReference Include="Avalonia.Gtk3" Version="0.4.1-build2920-alpha"/>
   </ItemGroup>
 </Project>
